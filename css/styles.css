@@ -47,6 +47,7 @@ img {
   width: 1158px;
   margin-right: auto;
   margin-left: auto;
+  padding: 0 15px;
 }
 
 button {
@@ -93,10 +94,7 @@ button {
 }
 
 .page-header {
-  padding-top: 24px;
-  padding-bottom: 24px;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding: 24px 15px;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -122,6 +120,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .menu-link:hover,
@@ -356,6 +355,7 @@ address ul a {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .portfolio-type {
@@ -389,6 +389,7 @@ address ul a {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .footer-text {
@@ -402,10 +403,6 @@ address ul a {
 
 .white-text-logo {
   color: #f4f4fd;
-}
-
-.footer-container {
-  display: inline-block;
 }
 
 /* ================ /PAGE FOOTER ================ */
