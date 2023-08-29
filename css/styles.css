@@ -346,6 +346,9 @@ address ul a {
   padding-bottom: 0px;
   flex-direction: column;
   justify-content: flex-start;
+}
+
+.portfolio-card-size {
   width: calc((100% - 48px) / 3);
 }
 
