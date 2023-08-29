@@ -89,12 +89,15 @@ button {
 
 .menu {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 .page-header {
   padding-top: 24px;
   padding-bottom: 24px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .logotype {
@@ -106,6 +109,7 @@ button {
   text-transform: uppercase;
   align-items: center;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .black-text-logo {
@@ -127,7 +131,7 @@ button {
 
 .contact-list-flex {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 .address-font-style {
@@ -159,6 +163,7 @@ address ul a {
 .hero-background {
   background-color: #2e2f42;
   height: 600px;
+  padding: 188px 0;
 }
 
 .first-section-heading {
@@ -168,13 +173,13 @@ address ul a {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  padding-top: 188px;
   padding-bottom: 48px;
-  width: 496px;
+  max-width: 496px;
   margin: 0 auto;
 }
 
 .order-service-button {
+  display: block;
   background: #4d5ae5;
   color: #fff;
   font-family: "Roboto", sans-serif;
@@ -182,8 +187,13 @@ address ul a {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  margin-bottom: 188px;
   padding: 16px 32px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .order-service-button:hover,
@@ -202,7 +212,7 @@ address ul a {
   list-style-type: none;
   background-color: #ffffff;
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .values-list-item {
@@ -244,6 +254,7 @@ address ul a {
 
 .team-card-background {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .our-team-heading {
@@ -261,7 +272,7 @@ address ul a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  column-gap: 24px;
+  gap: 24px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -280,14 +291,19 @@ address ul a {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-top: 32px;
-  padding-bottom: 8px;
+  text-align: center;
+  margin-bottom: 8px;
 }
-ition {
+
+.position {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  padding-bottom: 32px;
+  text-align: center;
+}
+
+.our-team-card-text {
+  padding: 32px 0;
 }
 
 /* ================ /TEAM SECTION ================ */
@@ -306,6 +322,7 @@ ition {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .our-portfolio-list {
@@ -321,6 +338,8 @@ ition {
   align-content: center;
   padding-left: 15px;
   padding-right: 15px;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio-card {
@@ -329,10 +348,6 @@ ition {
   flex-direction: column;
   justify-content: flex-start;
   width: calc((100% - 48px) / 3);
-  border: 1px solid var(--cornflower, #e7e9fc);
-}
-
-.portfolio-card:nth-child(n) {
 }
 
 .our-portfolio-projects {
@@ -341,20 +356,21 @@ ition {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-top: 32px;
-  padding-bottom: 8px;
-  padding-left: 16px;
-  padding-right: 16px;
 }
 
 .portfolio-type {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  padding-bottom: 32px;
-  padding-left: 16px;
-  padding-right: 16px;
 }
+
+.our-portfolio-card-text {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
+
 /* ================ /OUR PORTFOLIO SECTION ================ */
 
 /* ================ PAGE FOOTER ================ */
@@ -372,6 +388,7 @@ ition {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  margin-bottom: 16px;
 }
 
 .footer-text {
@@ -385,6 +402,10 @@ ition {
 
 .white-text-logo {
   color: #f4f4fd;
+}
+
+.footer-container {
+  display: inline-block;
 }
 
 /* ================ /PAGE FOOTER ================ */
