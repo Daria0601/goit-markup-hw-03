@@ -380,16 +380,9 @@ address ul a {
   padding-bottom: 100px;
 }
 
-.footer-text-logo {
-  color: #4d5ae5;
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-  margin-bottom: 16px;
+.footer-container {
   display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-text {
