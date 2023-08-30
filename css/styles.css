@@ -271,8 +271,6 @@ address ul a {
   flex-direction: row;
   justify-content: space-between;
   gap: 24px;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .team-card {
@@ -335,8 +333,6 @@ address ul a {
   justify-content: space-between;
   flex-wrap: wrap;
   align-content: center;
-  padding-left: 15px;
-  padding-right: 15px;
   column-gap: 24px;
   row-gap: 48px;
 }
