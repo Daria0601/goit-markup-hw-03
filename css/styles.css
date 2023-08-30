@@ -242,7 +242,6 @@ address ul a {
 /* ================ TEAM SECTION ================ */
 .our-team-list {
   list-style-type: none;
-  width: calc((100% - 72px) / 4);
 }
 
 .our-team-background {
@@ -282,6 +281,7 @@ address ul a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: calc((100% - 72px) / 4);
 }
 
 .our-team-names {
